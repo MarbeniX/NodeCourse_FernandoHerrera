@@ -1,0 +1,22 @@
+{
+    "name": "introduction",
+    "version": "0.0.1",
+    "description": "First time on a real node app",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node src/app.js",
+        "dev": "nodemon src/app.js"
+    },
+    "author": "Berlin Ortega",
+    "license": "ISC",
+    "devDependencies": {
+        "nodemon": "^3.1.10"
+    },
+    "dependencies": {
+        "axios": "^1.12.2",
+        "get-age": "^1.0.1",
+        "uuid": "^13.0.0",
+        "winston": "^3.17.0"
+    }
+}
